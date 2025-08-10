@@ -1,0 +1,54 @@
+2025-08-10 12:19:09,867 - DEBUG - Starting C:\Users\e_sal\Documents\scripts\python\truvi_challenge\fake_api_ingestion\utils\project_classes.py
+2025-08-10 12:19:10,134 - DEBUG - SELECT 'janwashere'; executed
+2025-08-10 12:19:10,136 - INFO - Connection to database valid
+2025-08-10 12:19:10,143 - DEBUG - truncate table data.raw_data; executed
+2025-08-10 12:19:12,210 - INFO - Fetched page 1 with 100 results
+2025-08-10 12:19:12,221 - DEBUG - Converted check_in_date to datetime
+2025-08-10 12:19:12,226 - DEBUG - Converted check_out_date to datetime
+2025-08-10 12:19:12,342 - DEBUG - Dataframe written to database
+2025-08-10 12:19:14,386 - INFO - Fetched page 2 with 100 results
+2025-08-10 12:19:14,389 - DEBUG - Converted check_in_date to datetime
+2025-08-10 12:19:14,392 - DEBUG - Converted check_out_date to datetime
+2025-08-10 12:19:14,457 - DEBUG - Dataframe written to database
+2025-08-10 12:19:16,523 - INFO - Fetched page 3 with 100 results
+2025-08-10 12:19:16,527 - DEBUG - Converted check_in_date to datetime
+2025-08-10 12:19:16,529 - DEBUG - Converted check_out_date to datetime
+2025-08-10 12:19:16,589 - DEBUG - Dataframe written to database
+2025-08-10 12:19:18,656 - INFO - Fetched page 4 with 100 results
+2025-08-10 12:19:18,659 - DEBUG - Converted check_in_date to datetime
+2025-08-10 12:19:18,662 - DEBUG - Converted check_out_date to datetime
+2025-08-10 12:19:18,731 - DEBUG - Dataframe written to database
+2025-08-10 12:19:20,798 - INFO - Fetched page 5 with 100 results
+2025-08-10 12:19:20,803 - DEBUG - Converted check_in_date to datetime
+2025-08-10 12:19:20,806 - DEBUG - Converted check_out_date to datetime
+2025-08-10 12:19:20,877 - DEBUG - Dataframe written to database
+2025-08-10 12:19:22,942 - INFO - Fetched page 6 with 100 results
+2025-08-10 12:19:22,945 - DEBUG - Converted check_in_date to datetime
+2025-08-10 12:19:22,947 - DEBUG - Converted check_out_date to datetime
+2025-08-10 12:19:23,013 - DEBUG - Dataframe written to database
+2025-08-10 12:19:25,082 - INFO - Fetched page 7 with 100 results
+2025-08-10 12:19:25,086 - DEBUG - Converted check_in_date to datetime
+2025-08-10 12:19:25,091 - DEBUG - Converted check_out_date to datetime
+2025-08-10 12:19:25,166 - DEBUG - Dataframe written to database
+2025-08-10 12:19:27,223 - INFO - Fetched page 8 with 100 results
+2025-08-10 12:19:27,226 - DEBUG - Converted check_in_date to datetime
+2025-08-10 12:19:27,228 - DEBUG - Converted check_out_date to datetime
+2025-08-10 12:19:27,304 - DEBUG - Dataframe written to database
+2025-08-10 12:19:29,371 - INFO - Fetched page 9 with 100 results
+2025-08-10 12:19:29,377 - DEBUG - Converted check_in_date to datetime
+2025-08-10 12:19:29,381 - DEBUG - Converted check_out_date to datetime
+2025-08-10 12:19:29,461 - DEBUG - Dataframe written to database
+2025-08-10 12:19:31,518 - INFO - Fetched page 10 with 100 results
+2025-08-10 12:19:31,523 - DEBUG - Converted check_in_date to datetime
+2025-08-10 12:19:31,526 - DEBUG - Converted check_out_date to datetime
+2025-08-10 12:19:31,594 - DEBUG - Dataframe written to database
+2025-08-10 12:19:31,595 - INFO - All pages fetched
+2025-08-10 12:19:31,698 - DEBUG - SELECT * FROM data.final_table; executed
+2025-08-10 12:19:31,716 - DEBUG - 
+                SELECT column_name
+                FROM information_schema.columns
+                WHERE table_schema = 'data' AND table_name = 'final_table'
+             executed
+2025-08-10 12:19:31,730 - INFO - Final table written to csv in C:\Users\e_sal\Documents\scripts\python\truvi_challenge\fake_api_ingestion\final_table.csv
+2025-08-10 12:19:31,731 - INFO - Object function stopped
+2025-08-10 12:19:31,731 - INFO - Script complete
