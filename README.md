@@ -14,7 +14,7 @@
 - Docker Desktop installed and running.
 - Python 3 installed as the main version.
 - Bash (or WSL on Windows) available on the machine.
-- Ensure there is no existing Docker container named local-postgres
+- Ensure there is no existing Docker image named local-postgres
 
 ### Assumptions 
 - Last day of the month exchange rate has been used when finding the monthly fee
