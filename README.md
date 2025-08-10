@@ -28,7 +28,7 @@ Setup environment
 Start postgres container
 - Navigate to the repo within bash/wsl and run
 ```
-bash postgres_run.sh start
+bash ./postgres_run.sh start
 ```
 - `start` can be replaced with `stop` and `status` to see if the container is running
 
@@ -36,7 +36,7 @@ Run processing script
 - Make sure this terminal is connectd to the venv
 - Start the python file, indicating the name of the config file (located in utils) to use
 ```
-python .\processing.py config.ini
+python ./processing.py config.ini
 ```
 - This will produce `final_table.csv` in the same folder which contains the data.
 - This can also be queried from the database using psql etc.
